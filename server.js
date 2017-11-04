@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 
 // Get our API routes
-const api = require('./gautama/src/api');
+const api = require('./api');
 
 //const mongo = require('./gautama/src/api');
 

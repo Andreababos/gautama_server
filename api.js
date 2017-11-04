@@ -37,9 +37,6 @@ const nodemailer = require('nodemailer');
 //
 // });
 
-router.get('/', (req, res) => {
-  console.log('faszcsi');
-});
 
 router.get('/sendEmail', (req, res) => {
   //console.log(res);
